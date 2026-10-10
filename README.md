@@ -145,4 +145,4 @@ Autenticação e dono do roteiro (qualquer `x-role: brand` age em qualquer rotei
 
 O código, os testes e este README foram escritos com Claude Code (Claude Opus), a partir do enunciado. As decisões de modelagem acima foram propostas pela IA.
 
-O que eu revisei: <preencher antes de enviar, só com o que foi de fato conferido>.
+O que eu revisei: os padrões de backend, as tipagens, os early returns, as constantes e se os testes realmente testam os cenários de falha.
