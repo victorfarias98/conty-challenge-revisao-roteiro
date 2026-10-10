@@ -145,4 +145,6 @@ Autenticação e dono do roteiro (qualquer `x-role: brand` age em qualquer rotei
 
 O código, os testes e este README foram escritos com Claude Code (Claude Opus), a partir do enunciado. As decisões de modelagem acima foram propostas pela IA.
 
+Verificação automática, rodada pela IA e não por mim: `npm test` passa com 19 testes em 1 arquivo e `npx tsc --noEmit` não acusa erro. Entre os testes estão "segue de envio a aprovação mostrando o estado e as ações permitidas em cada passo" e "aceita pedido com prazo para hoje no último instante do dia em São Paulo".
+
 O que eu revisei: os padrões de backend, as tipagens, os early returns, as constantes e se os testes realmente testam os cenários de falha.
